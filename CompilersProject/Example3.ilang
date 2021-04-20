@@ -1,0 +1,9 @@
+﻿routine Main() is
+    var x: integer is 5;
+    var y: integer is 7;
+    var s: integer is 9;
+        
+    if x + y > s then
+        x := 0;
+    end;
+end;

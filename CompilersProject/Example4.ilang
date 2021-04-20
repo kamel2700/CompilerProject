@@ -1,0 +1,39 @@
+﻿routine f(x: integer, y: integer): integer is
+  x := 6 + y;
+  y := x + 567;
+end;
+
+routine Main() is
+    var x: integer is 10;
+    var y: integer is 0;
+    var f: integer is 0;
+    var h: boolean is true;
+    var i: integer is 0;
+    h := true;
+    
+    while x > 5 and y < 9 loop
+      x := x + 1;
+      y := y - 1;
+    end;
+    
+    for i in 1..x loop
+        for i in 1..x loop
+          while x > 5 loop
+                x := 6 + 7;
+            end;
+        end;
+    end;
+    
+    for i in reverse 1..5 loop
+      f := 6 + 7;
+      if f > -5 then
+            f := 10;
+        end;
+    end;
+    
+    if x > -5 then
+      x := 6 + 7;
+    else
+      x := 6 + 7;
+    end;
+end;

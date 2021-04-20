@@ -1,0 +1,7 @@
+﻿routine foo() is
+    var x: integer is 5;
+    var y: integer is 8;
+    var s: integer is 0;
+    
+    s:= x + y;
+end;

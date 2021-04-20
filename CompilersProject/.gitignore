@@ -1,0 +1,9 @@
+# Visual Studio temporary files
+/.vs
+
+# IntelliJ files
+/.idea
+
+# Build files
+/bin
+/obj

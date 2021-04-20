@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="ShiftReduceParser, Version=0.0.0.0, Culture=neutral, PublicKeyToken=ff8fabef79b9cbb4">
+      <HintPath>Grammars\ShiftReduceParser.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
